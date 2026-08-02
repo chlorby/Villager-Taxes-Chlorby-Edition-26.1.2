@@ -11,8 +11,7 @@ scoreboard objectives add vt_timeleft dummy
 
 execute unless score #initialized vt_config matches 1 run function vt:config/defaults
 function vt:config/validate
-
-execute store result score #daytime vt_runtime run time query daytime
+function vt:timing/read_clock
 scoreboard players operation #last_daytime vt_runtime = #daytime vt_runtime
 
 tellraw @a {"text":"[Village Tribute] Configurable local-tax datapack loaded.","color":"green"}

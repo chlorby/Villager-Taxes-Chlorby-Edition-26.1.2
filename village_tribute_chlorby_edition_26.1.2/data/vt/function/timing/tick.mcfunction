@@ -1,4 +1,4 @@
-execute store result score #daytime vt_runtime run time query daytime
+function vt:timing/read_clock
 
 execute if score #timing_mode vt_config matches 0 run function vt:timing/interval
 execute if score #timing_mode vt_config matches 1 run function vt:timing/clock

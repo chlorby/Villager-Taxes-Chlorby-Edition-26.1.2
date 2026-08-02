@@ -29,7 +29,7 @@ scoreboard players set #interval_ticks vt_config 24000
 scoreboard players set #interval_counter vt_runtime 0
 scoreboard players set #warning_counter vt_runtime 0
 scoreboard players set #cleanup_counter vt_runtime 0
-execute store result score #daytime vt_runtime run time query daytime
+function vt:timing/read_clock
 scoreboard players operation #last_daytime vt_runtime = #daytime vt_runtime
 
 scoreboard players set #initialized vt_config 1

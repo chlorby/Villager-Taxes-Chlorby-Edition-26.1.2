@@ -1,4 +1,4 @@
-execute store result score #daytime vt_runtime run time query daytime
+function vt:timing/read_clock
 scoreboard players operation @s vt_timeleft = #collection_time vt_config
 scoreboard players operation @s vt_timeleft -= #daytime vt_runtime
 execute if score @s vt_timeleft matches ..0 run scoreboard players add @s vt_timeleft 24000
