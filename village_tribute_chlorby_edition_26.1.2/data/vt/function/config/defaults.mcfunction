@@ -21,7 +21,6 @@ scoreboard players set #warning_cooldown vt_config 12000
 scoreboard players set #warning_check_ticks vt_config 100
 scoreboard players set #cleanup_ticks vt_config 20
 
-# Timing mode: 0 = repeating interval, 1 = time-of-day collection.
 scoreboard players set #timing_mode vt_config 1
 scoreboard players set #collection_time vt_config 0
 scoreboard players set #interval_ticks vt_config 24000

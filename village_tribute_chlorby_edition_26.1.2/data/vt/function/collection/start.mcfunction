@@ -1,3 +1,4 @@
+function vt:cleanup/deduplicate_all
 function vt:config/validate
 function vt:population/recount
 
