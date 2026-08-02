@@ -376,4 +376,4 @@ no taxes should just disappear because someone forgot to empty the barrel
 * settings remain active after using `/reload`
 * always remove older versions before installing an update
 
-![bleh](LazyFuck.png)
+<img src="LazyFuck.png" alt="bleh" width="300" height="249">
