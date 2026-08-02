@@ -9,6 +9,7 @@ scoreboard objectives add vt_temp dummy
 scoreboard objectives add vt_warn dummy
 scoreboard objectives add vt_timeleft dummy
 scoreboard objectives add vt_taxday dummy
+scoreboard objectives add vt_counttick dummy
 
 execute unless score #initialized vt_config matches 1 run function vt:config/defaults
 function vt:config/validate
