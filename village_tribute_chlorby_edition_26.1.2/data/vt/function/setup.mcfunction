@@ -13,5 +13,6 @@ execute unless score #initialized vt_config matches 1 run function vt:config/def
 function vt:config/validate
 function vt:timing/read_clock
 scoreboard players operation #last_daytime vt_runtime = #daytime vt_runtime
+execute unless score #last_auto_day vt_runtime matches -2147483648..2147483647 run scoreboard players operation #last_auto_day vt_runtime = #current_day vt_runtime
 
-tellraw @a {"text":"[Village Tribute] Configurable local-tax datapack loaded.","color":"green"}
+tellraw @a {"text":"[Villager Taxes] Villager Taxes loaded.","color":"green"}

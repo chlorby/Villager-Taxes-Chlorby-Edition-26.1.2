@@ -1,4 +1,4 @@
-tellraw @s {"text":"--- Village Tribute configuration ---","color":"gold"}
+tellraw @s {"text":"--- Villager Taxes configuration ---","color":"gold"}
 tellraw @s [{"text":"Tax radius: "},{"score":{"name":"#tax_radius","objective":"vt_config"}},{"text":" blocks"}]
 tellraw @s [{"text":"Notification radius: "},{"score":{"name":"#notification_radius","objective":"vt_config"}},{"text":" blocks"}]
 tellraw @s [{"text":"Settlement test: "},{"score":{"name":"#settlement_min","objective":"vt_config"}},{"text":" villagers within "},{"score":{"name":"#settlement_radius","objective":"vt_config"}},{"text":" blocks"}]

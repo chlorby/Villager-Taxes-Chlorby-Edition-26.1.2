@@ -1,4 +1,4 @@
-tellraw @a[tag=vt_status_request,limit=1] [{"text":"--- Nearest tribute barrel ---","color":"gold"}]
+tellraw @a[tag=vt_status_request,limit=1] [{"text":"--- Nearest tax barrel ---","color":"gold"}]
 tellraw @a[tag=vt_status_request,limit=1] [{"text":"Position: "},{"nbt":"Pos","entity":"@s","color":"yellow"}]
 tellraw @a[tag=vt_status_request,limit=1] [{"text":"Assigned eligible taxpayers: "},{"score":{"name":"@s","objective":"vt_count"},"color":"green"}]
 tellraw @a[tag=vt_status_request,limit=1] [{"text":"Pending emerald balance: "},{"score":{"name":"@s","objective":"vt_balance"},"color":"yellow"}]

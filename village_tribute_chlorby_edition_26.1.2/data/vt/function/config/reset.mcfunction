@@ -1,2 +1,2 @@
 function vt:config/defaults
-tellraw @s {"text":"[Village Tribute] Configuration reset to defaults.","color":"green"}
+tellraw @s {"text":"[Villager Taxes] Configuration reset to defaults.","color":"green"}
