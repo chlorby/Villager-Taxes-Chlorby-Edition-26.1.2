@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=vt_tribute_barrel,sort=nearest,limit=1,distance=..128] run tellraw @a[tag=vt_diagnostic_player,limit=1] [{"text":"Nearest barrel's last automatic-tax day: "},{"score":{"name":"@s","objective":"vt_taxday"},"color":"yellow"}]

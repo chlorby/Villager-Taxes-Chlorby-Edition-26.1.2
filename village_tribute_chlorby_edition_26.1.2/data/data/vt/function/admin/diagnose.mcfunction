@@ -13,5 +13,8 @@ execute at @s run function vt:admin/count_nearby_markers
 tellraw @s [{"text":"Tax-barrel markers within 2 blocks of you: "},{"score":{"name":"@s","objective":"vt_temp"},"color":"yellow"}]
 tag @s remove vt_diagnostic_player
 
+tag @s add vt_diagnostic_player
 function vt:status
-tellraw @s {"text":"Use /function vt:admin/repair_markers to remove duplicate markers, then run /function vt:admin/collect_now to test.","color":"aqua"}
+execute at @s run function vt:admin/report_nearest_taxday
+tag @s remove vt_diagnostic_player
+tellraw @s {"text":"Version 5 prevents both duplicate tick execution and repeated automatic deposits by the same barrel on one Minecraft day.","color":"aqua"}

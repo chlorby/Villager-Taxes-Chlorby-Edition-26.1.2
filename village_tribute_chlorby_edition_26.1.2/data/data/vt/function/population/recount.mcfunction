@@ -1,7 +1,2 @@
-execute in minecraft:overworld run function vt:population/reset_dimension
-execute in minecraft:the_nether run function vt:population/reset_dimension
-execute in minecraft:the_end run function vt:population/reset_dimension
-
-execute in minecraft:overworld run function vt:population/assign_dimension
-execute in minecraft:the_nether run function vt:population/assign_dimension
-execute in minecraft:the_end run function vt:population/assign_dimension
+scoreboard players set @e[type=minecraft:marker,tag=vt_tribute_barrel] vt_count 0
+execute as @e[type=minecraft:villager] at @s run function vt:population/evaluate_villager

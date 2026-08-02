@@ -1,3 +1,1 @@
-execute in minecraft:overworld run function vt:ritual/scan_dimension
-execute in minecraft:the_nether run function vt:ritual/scan_dimension
-execute in minecraft:the_end run function vt:ritual/scan_dimension
+execute as @e[type=minecraft:item,tag=!vt_processed_emerald] at @s if items entity @s contents minecraft:emerald run function vt:ritual/check_item
