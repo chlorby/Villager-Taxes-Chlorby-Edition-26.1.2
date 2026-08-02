@@ -375,3 +375,5 @@ no taxes should just disappear because someone forgot to empty the barrel
 * configuration settings are saved with the world
 * settings remain active after using `/reload`
 * always remove older versions before installing an update
+
+![bleh](LazyFuck.png)
