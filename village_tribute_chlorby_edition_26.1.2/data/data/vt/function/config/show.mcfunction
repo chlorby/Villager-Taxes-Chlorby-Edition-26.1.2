@@ -1,0 +1,11 @@
+tellraw @s {"text":"--- Villager Taxes configuration ---","color":"gold"}
+tellraw @s [{"text":"Tax radius: "},{"score":{"name":"#tax_radius","objective":"vt_config"}},{"text":" blocks"}]
+tellraw @s [{"text":"Notification radius: "},{"score":{"name":"#notification_radius","objective":"vt_config"}},{"text":" blocks"}]
+tellraw @s [{"text":"Settlement test: "},{"score":{"name":"#settlement_min","objective":"vt_config"}},{"text":" villagers within "},{"score":{"name":"#settlement_radius","objective":"vt_config"}},{"text":" blocks"}]
+tellraw @s [{"text":"Emeralds per taxpayer: "},{"score":{"name":"#emeralds_per_villager","objective":"vt_config"}}]
+tellraw @s [{"text":"Maximum new tax per barrel: "},{"score":{"name":"#max_tax","objective":"vt_config"}},{"text":" (0 = unlimited)"}]
+tellraw @s [{"text":"Taxpayer toggles — unemployed: "},{"score":{"name":"#count_unemployed","objective":"vt_config"}},{"text":", nitwits: "},{"score":{"name":"#count_nitwits","objective":"vt_config"}},{"text":", babies: "},{"score":{"name":"#count_babies","objective":"vt_config"}}]
+tellraw @s [{"text":"Effects — messages: "},{"score":{"name":"#messages","objective":"vt_config"}},{"text":", sounds: "},{"score":{"name":"#sounds","objective":"vt_config"}},{"text":", particles: "},{"score":{"name":"#particles","objective":"vt_config"}}]
+tellraw @s [{"text":"Missing-barrel warnings: "},{"score":{"name":"#missing_warnings","objective":"vt_config"}},{"text":"; generated villages: "},{"score":{"name":"#generated_villages","objective":"vt_config"}}]
+tellraw @s [{"text":"Timing mode: "},{"score":{"name":"#timing_mode","objective":"vt_config"}},{"text":" (0 = interval, 1 = clock)"}]
+tellraw @s [{"text":"Clock time: "},{"score":{"name":"#collection_time","objective":"vt_config"}},{"text":"; interval ticks: "},{"score":{"name":"#interval_ticks","objective":"vt_config"}}]
