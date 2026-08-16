@@ -4,6 +4,7 @@ execute unless score #settlement_radius vt_config matches 16 unless score #settl
 
 execute unless score #settlement_min vt_config matches 1..100 run scoreboard players set #settlement_min vt_config 6
 execute unless score #emeralds_per_villager vt_config matches 1..64 run scoreboard players set #emeralds_per_villager vt_config 1
+execute unless score #villagers_per_emerald vt_config matches 1..64 run scoreboard players set #villagers_per_emerald vt_config 1
 execute unless score #max_tax vt_config matches 0..4096 run scoreboard players set #max_tax vt_config 128
 execute unless score #deposit_limit vt_config matches 1..512 run scoreboard players set #deposit_limit vt_config 256
 

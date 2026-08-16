@@ -3,6 +3,7 @@ scoreboard players set #notification_radius vt_config 64
 scoreboard players set #settlement_radius vt_config 32
 scoreboard players set #settlement_min vt_config 6
 
+scoreboard players set #villagers_per_emerald vt_config 1
 scoreboard players set #emeralds_per_villager vt_config 1
 scoreboard players set #max_tax vt_config 128
 scoreboard players set #deposit_limit vt_config 256

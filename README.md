@@ -123,6 +123,39 @@ to immediately run a collection for every loaded tax district:
 
 this is useful for testing without waiting until the next scheduled collection
 
+## tax ratio
+
+by default every taxable villager will add 1 emerald per collection
+
+admins can change how many villagers are required to generate 1 emerald by changing the `villagers_per_emerald` function
+
+for example:
+
+```mcfunction
+/scoreboard players set #villagers_per_emerald vt_config 1
+```
+
+means:
+* 1 villager = 1 emerald
+* 2 villagers = 2 emeralds
+* 5 villagers = 5 emeralds
+
+while:
+
+```mcfunction
+/scoreboard players set #villagers_per_emerald vt_config 2
+```
+
+means:
+
+* 1 villager = 0 emeralds
+* 2 villagers = 1 emerald
+* 3 villagers = 1 emerald
+* 4 villagers = 2 emeralds
+
+changes take effect immediately and do not require `/reload`!!!
+
+
 ## diagnosing problems
 
 stand near the tax barrel and run:

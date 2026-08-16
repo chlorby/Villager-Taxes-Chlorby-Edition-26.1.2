@@ -1,4 +1,5 @@
 scoreboard players operation @s vt_due = @s vt_count
+scoreboard players operation @s vt_due /= #villagers_per_emerald vt_config
 scoreboard players operation @s vt_due *= #emeralds_per_villager vt_config
 
 execute if score #max_tax vt_config matches 1.. if score @s vt_due > #max_tax vt_config run scoreboard players operation @s vt_due = #max_tax vt_config
