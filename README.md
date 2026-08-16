@@ -14,7 +14,7 @@ each eligible villager contributes to the nearest tax barrel within the configur
 by default:
 
 * taxes are collected once per minecraft day at dawn
-* each adult, employed, non-nitwit villager contributes 1 emerald
+* each adult, employed, non-nitwit villager contributes 1 emerald (this can be changed!)
 * villagers are assigned to the nearest tax barrel within 64 blocks
 * messages are shown to players within 64 blocks
 * each barrel can generate up to 128 new emeralds per collection
